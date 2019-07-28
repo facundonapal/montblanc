@@ -10,7 +10,7 @@
 .wrapper-widgets .tabss label {
     display: -ms-inline-grid;
     display: inline-grid;
-    width: 16%;
+    width: 16.65%;
     text-align: center;
     line-height: 2;
     cursor: pointer;
@@ -51,4 +51,5 @@ ul.ps-images {
     display: none;
     width: 100%
 }
+
 
