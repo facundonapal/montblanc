@@ -27,7 +27,7 @@
 }
 
 .wrapper-widgets .tabss label:hover {
-    border-bottom: 1.5px solid #05301a
+    border-bottom: 1.5px solid #000
 }
 
 .tabss [id^=tab]:checked+label {
