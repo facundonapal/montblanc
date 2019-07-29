@@ -1,3 +1,7 @@
+.title-wrapper {
+    padding: 0 42px !important;
+}
+
 .widget-title {
     font-style: normal;
     font-weight: normal;
@@ -25,11 +29,22 @@
     letter-spacing: .6px;
     margin-bottom: 22px;
     font-family: MontblancType, Arial;
-
+    display: inline;
 }
 
 
 
 .ps-img-container {
 	height: 336px !important;
+    margin-bottom: 90px !important;
+}
+
+#lookbook-link {
+    text-decoration: underline;
+    color: #444;
+    transition: color 3s ease;
+}
+
+#lookbook-link:hover {
+    color: #919191;
 }
