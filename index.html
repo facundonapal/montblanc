@@ -67,6 +67,7 @@
 <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,o,r,O=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);O.src="javascript:void(0)",O.title="",O.role="presentation",(O.frameElement||O).style.cssText="width:0;height:0;border:0;display:none;",r=document.getElementsByTagName("script")[0],r.parentNode.insertBefore(O,r);try{o=O.contentWindow.document}catch(_){i=document.domain,O.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",o=O.contentWindow.document}o.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"BBL5X-LHGB9-USSXB-W973T-Y6V45",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},o.write("<bo"+'dy onload="document._l();">'),o.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="lggy6mky3xxp2xjzx7kq-f-df4da674d-clientnsv4-s.akamaihd.net",i={"ak.v":20,"ak.cp":"315906","ak.ai":parseInt("199293",10),"ak.ol":"0","ak.cr":16,"ak.ipv":4,"ak.proto":"","ak.rid":"2a51fd7c","ak.r":27647,"ak.a2":e,"ak.m":"b","ak.n":"essl","ak.bpcip":"89.141.143.0","ak.cport":44980,"ak.gh":"104.113.250.142","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1564065749"};if(""!==t)i["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))i["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script>
 
 <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body id="montblanc" class="mb-body mb-home-page" data-cq-mode="DISABLED">
     <a class="mtb-skip-Content-link" href="#main-content">Skip to Content</a>
@@ -720,8 +721,9 @@
                         </div>
                     </li>
           <li class="mb-header-nav-item">
-            <a href="lookbook.html" class="mb-header-nav-links" data-tracking-content="{&quot;event&quot;: &quot;clickBurgerCategory&quot;,&quot;burgerCategory&quot;: &quot;news.stories&quot;}">
-            Instashop</a>
+           
+            <a href="lookbook.html" class="mb-header-nav-links">
+            Instashop <a href="lookbook.html" style="font-size: 1.575em; position: relative; top: -8px; color: transparent;">Instashop</a></a>
           </li>
           </ul>
           <ul class="mb-header-nav-bottom-items">
@@ -1161,14 +1163,58 @@
 
   <div class="mb-component-section-inner">
 <!-- Start Photoslurp Embed Code -->
+<!--
 <div class="title-wrapper">
   <h1 class="widget-title">Instashop </h1>
   <div>
-    <p class="widget-subtitle">#montblanc</p><span style="float: right;"><a id="lookbook-link" href="lookbook.html">View the Instashop</a></span>
+    <p class="widget-subtitle">#montblanc</p><span style="float: right;"><a id="lookbook-link" href="lookbook.html">View the gallery</a></span>
   </div>
 </div>
 
-<div id="widgetContainerID" class="ps-container">
+<div id="widgetContainerID2" class="ps-container">
+<script type="text/javascript">
+ if (!photoSlurpWidgetSettings) {
+    var photoSlurpWidgetSettings = {};
+}
+
+(function() {
+    photoSlurpWidgetSettings['widgetContainerID2'] = {
+        widgetId: 'homepageCarousel2',
+        widgetType: 'carousel',
+        albumId: 1922,
+        theme: 'modern',
+        lang: 'en',
+        pageType: 'homepage',
+        visibleProducts: 3,
+    };
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = '//static.photoslurp.com/widget/v3/widget_loader.js';
+    var entry = document.getElementsByTagName('script')[0];
+    entry.parentNode.insertBefore(script, entry);
+})();
+</script>
+  
+</div>
+-->
+<!-- End Photoslurp Embed Code -->
+
+
+</div>
+</div>
+
+
+    <!-- Start Photoslurp Embed Code -->
+
+<div class="widget-main-container">
+<div class="title-wrapper" data-aos="zoom-in" data-aos-duration="3000">
+  <h1 class="widget-title">Instashop </h1>
+  <div>
+    <p class="widget-subtitle">#montblanc</p><span style="float: right;"><a id="lookbook-link" href="lookbook.html">View the gallery</a></span>
+  </div>
+</div>
+
+<div id="widgetContainerID" class="ps-container" data-aos="fade-up" data-aos-delay="50" data-aos-duration="2000">
 <script type="text/javascript">
  if (!photoSlurpWidgetSettings) {
     var photoSlurpWidgetSettings = {};
@@ -1193,12 +1239,8 @@
 </script>
   
 </div>
+</div>
 <!-- End Photoslurp Embed Code -->
-
-
-</div>
-</div>
-
 
 <div class="mb-component-section mb-generic-prod-carousel">
         <div class="mb-component-section-inner">
@@ -2399,6 +2441,10 @@
     // End Google Tag Manager
 </script>
 <script type="text/javascript" src="js/cufon.min.1527492517109.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
         
